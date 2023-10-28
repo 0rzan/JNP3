@@ -1,0 +1,1 @@
+val is_prime : int list -> int -> bool
