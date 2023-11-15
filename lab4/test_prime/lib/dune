@@ -1,2 +1,8 @@
 (library
- (name test_prime))
+ (name Test_prime)
+ (libraries Is_prime))
+
+(rule
+ (target primes.ml)
+ (deps   (:generator ../generator/generator.exe))
+ (action (with-stdout-to %{target} (run %{generator} 10000))))

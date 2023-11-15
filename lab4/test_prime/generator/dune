@@ -1,0 +1,4 @@
+(executable
+ (name generator)
+ (modes byte exe)
+ (libraries Is_prime))
