@@ -1,4 +1,4 @@
 (executable
  (public_name test_prime)
  (name main)
- (libraries test_prime))
+ (libraries Test_prime))
