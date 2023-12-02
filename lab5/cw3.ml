@@ -46,7 +46,7 @@ module BST =
       let rec is_ordered min_val max_val = function
         | Empty -> true
         | Node (value, left, right) ->
-          value > min_val && value < max_val
+          value >= min_val && value <= max_val
           && is_ordered min_val value left
           && is_ordered value max_val right
       in is_ordered min_int max_int tree
