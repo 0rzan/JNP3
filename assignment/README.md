@@ -1,4 +1,5 @@
 # PostKrypt
+note: no support for reading from standard input (stdin).
 
 ### Requirements
 graphics 5.1.2

@@ -13,7 +13,7 @@ let draw_lines lines =
       aux_draw_lines rest
   in
   aux_draw_lines lines;
-  ignore (wait_next_event [Button_down])
+  ignore (wait_next_event [Key_pressed])
 
 let prolog = "300 400 translate"
 let epilog = "stroke showpage"
