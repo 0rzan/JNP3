@@ -16,7 +16,7 @@ dune build
   dune exec PostKrypt -- -n 2 -d path/to/input
   ```
   Use the `-d` flag to generate graphic output.
-  Use the '-n' flag to set the magnification factor (default is 1).
+  Use the `-n` flag to set the magnification factor (default is 1).
 
 - Standard Output:
   ```sh
